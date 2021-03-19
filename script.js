@@ -9,6 +9,7 @@ window.addEventListener('load', function (event) {
                 let hoursInSpace = String(json[i].hoursInSpace);
                 let active = String(json[i].active);
                 let skills = '';
+                // create skills string element by element
                 for (let j = 0; j < json[i].skills.length; j++) {
                     skills += json[i].skills[j] + ', ';
                 }
