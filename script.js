@@ -13,7 +13,7 @@ window.addEventListener('load', function (event) {
                 for (let j = 0; j < json[i].skills.length; j++) {
                     skills += json[i].skills[j] + ', ';
                 }
-                // remove last ', ' from skills
+                // remove last ', ' from skills.
                 skills = skills.slice(0, -2);
                 let imgSource = json[i].picture;
 
